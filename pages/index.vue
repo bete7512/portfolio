@@ -1,0 +1,12 @@
+<template>
+        <div class="container mx-auto ">
+                <Home></Home>
+        </div>
+</template>
+<script setup lang="ts">
+import AppBanner from "../components/shared/header/AppBanner.vue";
+import Home from '../components/shared/header/Home/Home.vue'
+import { ref } from 'vue'
+const isopen = ref(false)
+const modal = ref(true)
+</script>
