@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <div class="text-2xl sm:w-48 flex justify-center  mx-2 sm:mx-auto font-bold p-5 bg-gray-500 rounded-lg px-8">
+    <div class="sm:px-6 px-3">
+        <div class="text-2xl sm:w-48 flex justify-center  mx-2 sm:mx-auto font-bold p-5  rounded-lg px-8">
             Education
         </div>
         <div class=" w-full mt-3 space-y-3">

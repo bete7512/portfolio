@@ -1,6 +1,6 @@
 <template>
-    <div class="container mx-auto">
-        <div class="
+    <div class="">
+        <!-- <div class="
             pt-10
             sm:pt-20
             mt-10
@@ -27,11 +27,13 @@
                     </a>
                 </ul>
             </div>
-        </div>
+        </div> -->
+        <SmartFooter class=" "></SmartFooter>
         <CopyRight></CopyRight>
     </div>
 </template>
 <script setup lang="ts">
+import SmartFooter from './SmartFooter.vue'
 import feather from "feather-icons";
 import { computed, reactive, onUpdated, onMounted } from 'vue'
 import CopyRight from './CopyRight.vue'

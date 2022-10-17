@@ -1,7 +1,4 @@
-<script setup lang="ts">
-import { ref, onMounted, computed, defineProps, defineEmits } from 'vue'
-const props = defineProps(["showModal", "modal"])
-</script>
+
 <template>
     <transition name="fade">
         <div v-show="modal" class="font-general-regular fixed inset-0 z-30">
@@ -45,7 +42,10 @@ const props = defineProps(["showModal", "modal"])
         </div>
     </transition>
 </template>
-
+<script setup lang="ts">
+import { ref, onMounted, computed, defineProps, defineEmits } from 'vue'
+const props = defineProps(["showModal", "modal"])
+</script>
 <style>
 .modal-body {
     max-height: 500px;
