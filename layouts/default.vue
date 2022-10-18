@@ -8,7 +8,7 @@
       </div>
     </AppHeader>
     <transition name="fade" mode="out-in">
-      <div class="bg-gray-100">
+      <div class="bg-secondary-light dark:bg-secondary-dark">
         <Nuxt class="sm:mt-56 block mt-24 vsm:mt-96" />
       </div>
     </transition>

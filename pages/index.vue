@@ -1,5 +1,5 @@
 <template>
-        <div class="container mx-auto bg-white ">
+        <div class="container mx-auto bg-white dark:bg-secondary-dark dark:text-white">
                 <Home></Home>
         </div>
 </template>

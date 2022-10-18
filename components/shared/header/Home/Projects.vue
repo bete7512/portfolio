@@ -7,7 +7,7 @@
             <div class="container  flex flex-wrap gap-6">
                 <div class="rounded p-3 shadow-lg w-full sm:w-64">
                     <img class="w-64 rounded p-3 h-32" src="~/assets/portfolio/solidity.png" alt="yelem">
-                    <div>
+                    <div class="w-full">
                         <div>Food Recipe website</div>
                         <div>here is the description</div>
                     </div>

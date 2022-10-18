@@ -1,5 +1,10 @@
 export default {
+  
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: "static",
+  colorMode: {
+    classSuffix: "",
+  },
   head: {
     title: 'personalportfolio',
     meta: [
@@ -26,6 +31,7 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -36,9 +42,12 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    '@nuxtjs/color-mode'
+    // '@nuxtjs/color-mode'
   ],
-
+  // colorMode: {
+  //   preference: 'light', // default theme
+  //   dataValue: 'theme', // activate data-theme in <html> tag
+  // },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308

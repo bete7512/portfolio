@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-3 flex justify-center  bg-gray-400">
+    <div class="mt-3 flex justify-center dark:bg-gray-600 dark:text-white  bg-gray-400">
         <div class="bg-blue-900 foot h-96 w-full sm:w-1/2 flex justify-center">
             <div class="space-y-2 pt-2">
                 <div>
@@ -10,7 +10,7 @@
                 <div space-y-2 pt-2>
                     <div class="font-bold text-3xl">Follow Me</div>
                     <ul class="flex pt-3 gap-2 sm:gap-4">
-                        <a v-for="social in socials" :key="social.id" :href="social.url" target="__blank" class="  text-black  hover:text-indigo-500  dark:hover:text-indigo-400  cursor-pointer  rounded-lg  bg-gray-50  dark:bg-ternary-dark  hover:bg-gray-100  shadow-sm  p-2  duration-500
+                        <a v-for="social in socials" :key="social.id" :href="social.url" target="__blank" class="  text-black dark:text-white  hover:text-indigo-500  dark:hover:text-indigo-400  cursor-pointer  rounded-lg  bg-gray-50  dark:bg-ternary-dark  hover:bg-gray-100  shadow-sm  p-2  duration-500
                         ">
                             <i :data-feather="social.icon" class="w-3 sm:w-5 h-3 sm:h-5"></i>
                         </a>

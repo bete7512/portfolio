@@ -1,5 +1,5 @@
 <template>
-    <div class=" bg-blue-200    sm:p-5   ">
+    <div class=" bg-blue-200 dark:bg-blue-900 dark:text-white  sm:p-5   ">
         <!-- hover:translate-y-2 -->
         <div class="">
             <div class="w-4 h-4 border-2 border-green-700 rounded-full bg-blue-200 items-center"></div>
@@ -15,7 +15,7 @@
                 ">
                         Bete Goshme
                     </h1>
-                    <p class=" font-general-medium mt-2 mx-auto text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-yellow-500
+                    <p class=" font-general-medium mt-2 mx-auto  sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-yellow-500 text-3xl font-serif
                 ">
                         Full-Stack <span class="text-black font-bold">Developer</span>
                     </p>
