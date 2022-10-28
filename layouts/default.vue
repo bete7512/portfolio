@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-secondary-light dark:bg-primary-dark min-h-screen flex flex-col">
+  <div class="bg-gradient-to-l  from-cyan-600 via-purple-500 to-sky-900 dark:bg-primary-dark min-h-screen flex flex-col">
     <AppHeader>
       <div class="flex justify-center">
         <AppBanner
@@ -8,7 +8,7 @@
       </div>
     </AppHeader>
     <transition name="fade" mode="out-in">
-      <div class="bg-secondary-light dark:bg-secondary-dark">
+      <div class=" dark:bg-secondary-dark">
         <Nuxt class="sm:mt-56 block mt-24 vsm:mt-96" />
       </div>
     </transition>

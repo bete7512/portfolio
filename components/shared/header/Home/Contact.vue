@@ -1,6 +1,6 @@
 <template>
     <div class="mt-3 sm:px-6 px-3">
-        <div class="text-2xl sm:w-44 flex justify-center  mx-2 sm:mx-auto font-bold p-5  rounded-lg">
+        <div id="contacts" class="text-2xl sm:w-44 flex justify-center  mx-2 sm:mx-auto font-bold p-5  rounded-lg">
             Contact Me
         </div>
         <div>

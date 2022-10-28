@@ -1,6 +1,6 @@
 <template>
-    <div class="mt-3 flex justify-center dark:bg-gray-600 dark:text-white  bg-gray-400">
-        <div class="bg-blue-900 foot h-96 w-full sm:w-1/2 flex justify-center">
+    <div class="mt-3 flex justify-center dark:bg-gray-600 dark:text-white  ">
+        <div class="bg-blue-900 foot h-96 w-full sm:w-full  md:w-3/4 flex justify-center">
             <div class="space-y-2 pt-2">
                 <div>
                     <div class="font-bold text-3xl">Get In Touch</div>

@@ -31,7 +31,8 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/color-mode'
+    '@nuxtjs/color-mode',
+    // '@nuxtjs/composition-api/module'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -43,12 +44,16 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     // '@nuxtjs/color-mode'
+    '@nuxtjs/apollo',
   ],
-  // colorMode: {
-  //   preference: 'light', // default theme
-  //   dataValue: 'theme', // activate data-theme in <html> tag
-  // },
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
+  apollo: {
+    clientConfigs: {
+      default: {
+        httpEndpoint: 'https://myportfolio.hasura.app/v1/graphql',
+      },
+    },
+  },
+  
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: '/',
